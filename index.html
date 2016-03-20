@@ -1,0 +1,65 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="code.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
+html {
+	background-color: #002f6c;
+	color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-weight: normal;
+	text-overflow: clip;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-weight: 600;
+}
+
+h1 {
+	letter-spacing: 2px;
+	font-size: 11vh;
+	margin-bottom: 20px;
+	text-align: center;
+
+}
+
+#timetable {
+	width: 100%;
+	height: 85%;
+	font-size: 7vh;
+	border-collapse: collapse;
+}
+
+#timetable td {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.info {
+	font-size: 60%;
+	vertical-align: middle;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+.leaving td {
+	animation: blinker 2s linear infinite;
+}
+
+#timetable tr:nth-child(odd) {background: #3264a4}
+</style>
+</head>
+<body>
+<h1>City West Stn</h1>
+</body>
+</html>
